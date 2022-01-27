@@ -1,0 +1,69 @@
+{
+  "name": "farm-hq-technical-interview-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "check-types": "yarn tsc --noEmit",
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint ./src",
+    "start": "react-scripts start",
+    "test": "cypress open -c electron"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "11.6.0",
+    "@fontsource/roboto": "4.5.1",
+    "@mui/icons-material": "5.3.1",
+    "@mui/material": "5.3.1",
+    "@reduxjs/toolkit": "1.7.1",
+    "@turf/centroid": "^6.5.0",
+    "@turf/turf": "6.5.0",
+    "@types/react-router-dom": "^5.3.1",
+    "cypress": "9.3.1",
+    "eslint-plugin-cypress": "^2.12.1",
+    "lodash": "^4.17.21",
+    "react": "17.0.2",
+    "react-dom": "^17.0.2",
+    "react-motion": "^0.5.2",
+    "react-redux": "7.2.6",
+    "react-router-dom": "5.3.0",
+    "react-scripts": "4.0.2",
+    "react-transition-group": "^4.4.2",
+    "typescript": "4.5.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/googlemaps": "^3.43.3",
+    "@types/jest": "^27.0.2",
+    "@types/lodash": "^4.14.175",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-motion": "^0.0.31",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router": "^5.1.17",
+    "@types/react-transition-group": "^4.4.3",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.28.0"
+  }
+}
